@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Ticket Booking System</title>
+</head>
+
+<body>
+    <h1 class="title">Movie Ticket Booking System</h1>
+
+    <section class="movie-booking">
+        <form action="">
+            <h2>Please Enter the details</h2>
+            <table>
+                <tr>
+                    <td><label for="movie-name">Select Movie</label></td>
+                    <td><select name="movie-name" id="movie-list">
+                            <option value="0">--Select option--</option>
+                            <option value="120">Coolie - ₹120</option>
+                            <option value="150">Dude - ₹150</option>
+                            <option value="130">Madrasi - ₹130</option>
+                            <option value="200">Bison - ₹200</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="movie-time">Select Timming</label></td>
+                    <td><select name="movie-time" id="movie-time">
+                            <option value="0">--Select option--</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="02:00 PM">02:00 PM</option>
+                            <option value="06:00 PM">06:00 PM</option>
+                            <option value="11:00 PM">11:00 PM</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tickets">Number of Tickets</label></td>
+                    <td><input type="number" name="tickets " id="ticket-count" placeholder="Max 10 Tickets" min="1"
+                            max="10" required></td>
+                </tr>
+            </table>
+            <button type="button" id="book-btn">Book Now</button>
+        </form>
+
+        <div id="confirm-booking">
+            
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

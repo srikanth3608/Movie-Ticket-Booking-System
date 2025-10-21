@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgba(241, 89, 241, 0.493);
+}
+.title{
+    color: white;
+    background-color: rgb(41, 41, 41);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-booking{
+    margin-top: 30px;
+    
+}
+.movie-booking form{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.movie-booking form h2{
+    /* text-align: start; */
+    margin-bottom: 15px;
+}
+.movie-booking form select{
+    width: 150px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgba(241, 89, 241, 0.493);
+}
+.movie-booking form input{
+    width: 150px;
+    height: 35px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgba(241, 89, 241, 0.493);
+}
+.movie-booking form input::placeholder{
+    color: black;
+}
+.movie-booking form button{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(0, 0, 255, 0.849);
+}
+.movie-booking form table{
+    margin: 0 auto;
+}
+
+#confirm-booking{
+    display: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    width: 500px;
+    padding: 30px;
+    margin: 20px auto 40px;
+}
+#confirm-booking p{
+    margin: 5px 0;
+    font-weight: lighter;
+    font-size: 18px;
+}
+#confirm-booking table{
+    text-align: center;
+}
+#confirm-booking .payment{
+    text-align: center;
+}
+#confirm-booking button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 255, 0.849);
+}
